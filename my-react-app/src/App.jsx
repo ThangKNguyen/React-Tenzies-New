@@ -95,7 +95,7 @@ function holdDice(id) {
 }
 
 
-
+//function to display the dice, map the values into a each component
 const diceNums = diceValues.map((die) => { 
   return  <Dice 
               key={die.id} 
