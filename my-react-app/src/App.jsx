@@ -31,7 +31,7 @@ function App() {
             console.log("You won!")
         }
         
-    }, [diceValues]) //have to use state because we are syncing 2 internal states together, tenzies and diceValue, runs everytime
+    }, [diceValues]) //have to use useEffect because we are syncing 2 internal states together, tenzies and diceValue, runs everytime
                      //diceValues is clicked
 
   function getNewDie(){
